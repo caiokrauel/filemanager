@@ -1,0 +1,14 @@
+server:
+  port: 9001
+  servlet:
+    context-path: 
+    
+spring:
+  application:
+    name: filemanager
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2KB
+      max-file-size: 200MB
+      max-request-size: 215MB 
